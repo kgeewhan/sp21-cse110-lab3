@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Geewhan's HTML Page</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico"/>
+
+</head>
+<body>
+    <header>
+         <h1>Geewhan's Journal</h1>
+    </header>
+    <div></div>
+    <span></span>
+
+    <nav>
+        <ul>
+            <li><a href="#entry1">Entry 1</a></li>
+            <li><a href="#entry2">Entry 2</a></li>
+            <li><a href="#entry3">Entry 3</a></li>
+            <li><a href="#form">Create Journal Form</a></li>
+        </ul>
+    </nav>
+
+    <hr><hr>
+
+    <main>
+        <section>
+            <h2 id="entry1">Entry 1 - 4/5/21</h2>
+            <h3>Slow Day</h3>
+            <p>
+                Today, I woke up very tired feeling the aftermath of the chaotic
+                weekend. I felt like I should have been used to the new schedule after
+                the first week of classes but I for sure wasn't. I had to wake up at least 
+                2 hours earlier than usual due to having to take morning classes this quarter.
+                After taking my morning class, I remember going right back to sleep. I think 
+                took an <b>hour</b> nap and when I woke up, it was around 12. I ate lunch and then 
+                went on to start doing my homework for my classes. Then around 6, I did my
+                daily workout, had dinner, and went back to working on homework. <i>I was 
+                so tired at this point.</i> I just turned on lofi music with rain in order
+                to try to focus on finishing the assignment today. 
+                To be honest, today was just another day. Nothing special happening. <br><br><br>
+                <br>Short rain sound: 
+                <audio controls src="/rainsound.mp3"></audio>
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 id="entry2">Entry 2 - 4/6/21</h2>
+            <h3>Slow Day Pt. 2</h3>
+            <p>
+                <em>Another morning, another class.</em> Today, I had to wake up even earlier than
+                yesterday. However, I think it was much better since I was coming off of a Monday
+                rather than the weekend. This is always a problem for me. On the weekends, I tend
+                to wake up way later than the weekdays. Therefore, my schedule gets messed up where
+                I have to readjust to my weekday schedule after weekends. But oh well. Similar to yesterday,
+                I just powered through the day. After today's CSE 110 lecture, for some reason I was just
+                inspired to look through CS memes. After looking through some channels in slack, I found one
+                that I thought was pretty funny. That meme definitely made my day. 
+                <br>Here is the image: <br><img src="/csmeme.jpg" width="300" height="300">
+                <br><br><br>
+            </p>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2 id="entry3">Entry 3 - 4/7/21</h2>
+            <h3>Learning HTML</h3>
+            <p>
+                <strong>Lab day!</strong> Today, the lab for CSE 110 released. According to the lab, we have to
+                use HTML in order to create a journal page to record entries for the past 3 days.
+                I have never used HTML before so I was a little bit confused going into the lab. 
+                However, the tutorials that was listed on the lab page was very helpful for a 
+                beginner like me in learning HTML. It looks like it may take a while for me to 
+                complete the lab as well as everything I have to do for the rest of the week. I 
+                need to make sure I plan out my schedule well enough to complete everything on time.
+                <br>Here is my list of things I have to do within this week:
+                <ol>
+                    <li>Finish CSE110 Lab</li>
+                    <li>Finish CSE101 HW</li>
+                    <li>Finish ECE 45 HW</li>
+                    <li>Study for quizzes on Friday</li>
+                </ol>
+                <details>
+                    <summary>Quick video of the tutorial I used:</summary>
+                    <video controls width="300" height="300" src="/journal.mp4" Browser not supported>
+                    </video>
+                </details>
+                <br><br><br>
+            </p>
+        </section>
+
+    </main>
+
+    <hr><hr>
+
+    <h2 id="form">Create your own journal form:</h2>
+    <form>
+        <label>Entry Name: </label> 
+        <input type="text"><br><br>
+        <label>Date: </label>
+        <input type="date"><br><br>
+        <textarea rows="10" cols="80">Write Text Here...</textarea><br><br>
+
+        <fieldset>
+            <legend>Quick Survey</legend>
+            <label>Favorite Journal Entry:</label><br>
+            <select name="entries">
+                <option value="">--Choose an Entry--</option>
+                <option>Entry 1</option>
+                <option>Entry 2</option>
+                <option>Entry 3</option>
+            </select><br><br>
+
+            <label>Favorite Coding Language:</label><br>
+            <input list="coding">
+            <datalist id="coding">
+                <option value="Python">
+                <option value="Java/JavaScript">
+                <option value="C++/C/C#">
+                <option value="Other">
+            </datalist><br><br>
+
+            <label>How would you rate this page? (1-poor, 5-great) </label><br>
+            <input type="radio" name="radio">
+            <label>1</label>
+            <input type="radio" name="radio">
+            <label>2</label>
+            <input type="radio" name="radio">
+            <label>3</label>
+            <input type="radio" name="radio">
+            <label>4</label>
+            <input type="radio" name="radio">
+            <label>5</label>
+
+            <br><br>
+
+            <label>Do you like HTML?</label><br>
+            <input type="checkbox">
+            <label>Yes</label>
+        </fieldset>
+
+        <br><br>
+
+        <button type="button">Create</button>
+    </form>
+
+    <hr><hr>
+    <br><br>
+
+    <footer>Made by Geewhan Kim</footer>
+</body>
+</html>
