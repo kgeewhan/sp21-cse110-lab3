@@ -1,1 +1,69 @@
 /* css file for index.html from Lab 2 */
+html {
+    font-size: 16px
+}
+
+h2 {
+    color: orange;
+    font-size: 1.8rem
+}
+
+/* Selector List */
+h3, .elist {
+    color: #ee4502;
+}
+
+/* element selector */
+p {
+    color: hsl(0, 6%, 1%)
+}
+
+/* id selector */
+#list1 {
+    color: green;
+}
+
+/* class selector */
+.entryp {
+    color: black;
+}
+
+/* universal selector */
+* {
+    background-color: rgb(252, 241, 210);
+}
+
+/* attribute selector */
+a[href^="#"] {
+    font-size: 1.3em;
+}
+
+/* Pseudo-class Selector */
+h2:hover {
+    color: yellow;
+}
+
+/* Descendant Combinator */
+section li {
+    list-style-type: circle;
+}
+
+/* Child Combinator */
+form > label {
+    color: green;
+}
+
+/* General Sibling Combinator */
+h2 ~ h3 {
+    font-size: 5mm
+}
+
+/* Adjacent Sibling Combinator */
+li + li + li + li {
+    font-size: 0.6cm
+}
+
+/* Combining Two Selectors */
+p.entryp {
+    font-size: 1.5 lh
+}
